@@ -36,4 +36,4 @@ form to add new comments.
 
 ## Demo Links
 
-- [DEMO LINK](https://AndriiZakharenko.github.io/react_dynamic-list-of-post/)
+- [DEMO LINK](https://AndriiZakharenko.github.io/react_dynamic-list-of-posts/)
