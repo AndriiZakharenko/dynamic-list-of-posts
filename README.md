@@ -1,13 +1,11 @@
 # React Dynamic List of Posts
 
-Implement the App with ability to show posts of a selected user. Each post can
+Implemented the App with ability to show posts of a selected user. Each post can
 be opened in the sidebar with its comments. There should delete a comment and a
 form to add new comments.
-Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
 
-> Here is [the working version](https://mate-academy.github.io/react_dynamic-list-of-posts/)
 
-1. Learn the `utils/fetchClient.ts` and use it to interact with the API (tests expect that you each API request is sent after 300 ms delay);
+1. Use `utils/fetchClient.ts` to interact with the API (tests expect that you each API request is sent after 300 ms delay);
 1. Initially the `App` shows the `UserSelector` and a paragraph `No user selected` in the main content block.
     - load users from the API on page load;
     - implement the `UserSelector` as a dropdown using the given markup;
@@ -35,3 +33,7 @@ Install Prettier Extention and use this [VSCode settings](https://mate-academy.g
 1. Implement comment deletion
     - Delete the commnet immediately not waiting for the server response to improve the UX.
 1. (*) Handle `Add` and `Delete` errors so the user can retry
+
+## Demo Links
+
+- [DEMO LINK](https://AndriiZakharenko.github.io/react_dynamic-list-of-post/)
