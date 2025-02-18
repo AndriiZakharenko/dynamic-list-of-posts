@@ -1,30 +1,34 @@
 # Dynamic List of Posts
 
-### Description
+## 🎮 About the Project
+This project provides a dynamic list of posts where users can select a user and view their posts. Each post can be opened in the sidebar to display its comments, and users can add or delete posts. The data is fetched dynamically from an external API, providing a seamless experience.
 
-- Implemented the App with ability to show posts of a selected user using external API. Each post can be opened in the sidebar with its comments, can be deleted and added a new one
+## 🚀 Tech Stack
+- **HTML** (BEM methodology for structured markup)
+- **CSS** (Bulma for styling)
+- **JavaScript** (Dynamic functionality)
+- **Typescript** (Type-safe code)
+- **React** (Component-based architecture)
+- **ReactDOM** (Efficient rendering)
+- **Fetch** (For external API requests)
+- **useContext** (For global state management)
+- **API** ([Mate API](https://mate-academy.github.io/fe-students-api/))
 
-### Stack
+## 🛠️ Tools & Dependencies
+- **ESLint** – Ensuring code quality  
+- **Prettier** – Code formatting for readability  
+- **Cypress** – End-to-end testing  
+- **Mochawesome** – Test reporting  
+- **Babel** – JavaScript compiler for modern syntax  
 
-- HTML (BEM)
-- CSS (Bulma)
-- JS
-- Typescript
-- React
-- ReactDOM
-- Fetch
-- API ([Mate](https://mate-academy.github.io/fe-students-api/))
-- useContext
+## 📌 Features
+✅ Dynamic display of posts for a selected user  
+✅ View and manage comments for each post in the sidebar  
+✅ Add and delete posts functionality  
+✅ Global state management with `useContext` for user selection and post actions
 
-### Tools
+## 🌐 Demo
+🔗 [Live Demo](https://AndriiZakharenko.github.io/dynamic-list-of-posts/)
 
-- ESlint
-- Prettier
-- Cypress
-- Mochawesome
-- Babel
-
-### Demo links
-
-- [Demo](https://AndriiZakharenko.github.io/dynamic-list-of-posts/)
-
+## 📜 License
+This project is forked from 💻 [Mate Academy](https://github.com/mate-academy/react_dynamic-list-of-posts)
